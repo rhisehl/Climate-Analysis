@@ -17,3 +17,12 @@ The data was separated into 9 different stations. These stations were then queri
 After separating out the station with the most observations, the previous year's temperature data was analyzed. Temperatures tend to range in the mid-70s.
 
 ![image](https://user-images.githubusercontent.com/116215793/222919323-feb0d201-fed5-494a-8ef3-2742ee688691.png)
+
+
+# API CALLS
+To seek out some of the data provided here, an API can be utilized. There are 3 static routes and 1 variable route available.
+
+/precipitation provides a list of dates and all precipitation values for the most recent year of data
+/stations provides a list of all station IDs and names
+/tobs provides all temperature information for the most active station 
+/start/end allows the user to input a start and/or end date to find temperature information for that time period.
